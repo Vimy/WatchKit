@@ -14,6 +14,19 @@
 		398B88ED1A237BB400E62796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398B88EC1A237BB400E62796 /* Images.xcassets */; };
 		398B88F01A237BB400E62796 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398B88EE1A237BB400E62796 /* LaunchScreen.xib */; };
 		398B88FC1A237BB500E62796 /* WatchKit_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B88FB1A237BB500E62796 /* WatchKit_FunTests.m */; };
+		398B890C1A238CE700E62796 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398B890B1A238CE700E62796 /* WatchKit.framework */; };
+		398B89121A238CE700E62796 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89111A238CE700E62796 /* InterfaceController.m */; };
+		398B89141A238CE700E62796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398B89131A238CE700E62796 /* Images.xcassets */; };
+		398B89181A238CE700E62796 /* WatchKit-Fun Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 398B89171A238CE700E62796 /* WatchKit-Fun Watch App.app */; };
+		398B891F1A238CE700E62796 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398B891E1A238CE700E62796 /* Interface.storyboard */; };
+		398B89211A238CE700E62796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398B89201A238CE700E62796 /* Images.xcassets */; };
+		398B89241A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 398B89091A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		398B892D1A238D4100E62796 /* animal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398B892C1A238D4100E62796 /* animal.jpg */; };
+		398B892E1A238D4100E62796 /* animal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398B892C1A238D4100E62796 /* animal.jpg */; };
+		398B89311A238EAA00E62796 /* FoodTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89301A238EAA00E62796 /* FoodTableRowController.m */; };
+		398B89341A23940F00E62796 /* TableInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89331A23940F00E62796 /* TableInterfaceController.m */; };
+		398B893A1A23999800E62796 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89391A23999800E62796 /* Table.m */; };
+		398B893D1A239A1900E62796 /* TableDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B893C1A239A1900E62796 /* TableDetail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +37,35 @@
 			remoteGlobalIDString = 398B88DB1A237BB400E62796;
 			remoteInfo = "WatchKit-Fun";
 		};
+		398B89191A238CE700E62796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398B88D41A237BB400E62796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398B89161A238CE700E62796;
+			remoteInfo = "WatchKit-Fun Watch App";
+		};
+		398B89221A238CE700E62796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398B88D41A237BB400E62796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398B89081A238CE700E62796;
+			remoteInfo = "WatchKit-Fun WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		398B892B1A238CE700E62796 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				398B89241A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		398B88DC1A237BB400E62796 /* WatchKit-Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKit-Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +81,25 @@
 		398B88F51A237BB500E62796 /* WatchKit-FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchKit-FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		398B88FA1A237BB500E62796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		398B88FB1A237BB500E62796 /* WatchKit_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchKit_FunTests.m; sourceTree = "<group>"; };
+		398B89091A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKit-Fun WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398B890B1A238CE700E62796 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		398B890F1A238CE700E62796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398B89101A238CE700E62796 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		398B89111A238CE700E62796 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		398B89131A238CE700E62796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		398B89171A238CE700E62796 /* WatchKit-Fun Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKit-Fun Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398B891D1A238CE700E62796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398B891E1A238CE700E62796 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		398B89201A238CE700E62796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		398B892C1A238D4100E62796 /* animal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal.jpg; sourceTree = "<group>"; };
+		398B892F1A238EAA00E62796 /* FoodTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodTableRowController.h; path = "../WatchKit-Fun Watch App/FoodTableRowController.h"; sourceTree = "<group>"; };
+		398B89301A238EAA00E62796 /* FoodTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodTableRowController.m; path = "../WatchKit-Fun Watch App/FoodTableRowController.m"; sourceTree = "<group>"; };
+		398B89321A23940F00E62796 /* TableInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableInterfaceController.h; path = "../WatchKit-Fun Watch App/TableInterfaceController.h"; sourceTree = "<group>"; };
+		398B89331A23940F00E62796 /* TableInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableInterfaceController.m; path = "../WatchKit-Fun Watch App/TableInterfaceController.m"; sourceTree = "<group>"; };
+		398B89381A23999800E62796 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		398B89391A23999800E62796 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		398B893B1A239A1900E62796 /* TableDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDetail.h; sourceTree = "<group>"; };
+		398B893C1A239A1900E62796 /* TableDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDetail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +117,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		398B89061A238CE700E62796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B890C1A238CE700E62796 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,7 +133,11 @@
 			children = (
 				398B88DE1A237BB400E62796 /* WatchKit-Fun */,
 				398B88F81A237BB500E62796 /* WatchKit-FunTests */,
+				398B890D1A238CE700E62796 /* WatchKit-Fun WatchKit Extension */,
+				398B891B1A238CE700E62796 /* WatchKit-Fun Watch App */,
+				398B890A1A238CE700E62796 /* Frameworks */,
 				398B88DD1A237BB400E62796 /* Products */,
+				398B892C1A238D4100E62796 /* animal.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +146,8 @@
 			children = (
 				398B88DC1A237BB400E62796 /* WatchKit-Fun.app */,
 				398B88F51A237BB500E62796 /* WatchKit-FunTests.xctest */,
+				398B89091A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex */,
+				398B89171A238CE700E62796 /* WatchKit-Fun Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +193,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		398B890A1A238CE700E62796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398B890B1A238CE700E62796 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		398B890D1A238CE700E62796 /* WatchKit-Fun WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				398B89101A238CE700E62796 /* InterfaceController.h */,
+				398B89111A238CE700E62796 /* InterfaceController.m */,
+				398B89321A23940F00E62796 /* TableInterfaceController.h */,
+				398B89331A23940F00E62796 /* TableInterfaceController.m */,
+				398B892F1A238EAA00E62796 /* FoodTableRowController.h */,
+				398B89301A238EAA00E62796 /* FoodTableRowController.m */,
+				398B89131A238CE700E62796 /* Images.xcassets */,
+				398B890E1A238CE700E62796 /* Supporting Files */,
+				398B89381A23999800E62796 /* Table.h */,
+				398B89391A23999800E62796 /* Table.m */,
+				398B893B1A239A1900E62796 /* TableDetail.h */,
+				398B893C1A239A1900E62796 /* TableDetail.m */,
+			);
+			path = "WatchKit-Fun WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		398B890E1A238CE700E62796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398B890F1A238CE700E62796 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		398B891B1A238CE700E62796 /* WatchKit-Fun Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				398B891E1A238CE700E62796 /* Interface.storyboard */,
+				398B89201A238CE700E62796 /* Images.xcassets */,
+				398B891C1A238CE700E62796 /* Supporting Files */,
+			);
+			path = "WatchKit-Fun Watch App";
+			sourceTree = "<group>";
+		};
+		398B891C1A238CE700E62796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398B891D1A238CE700E62796 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +256,12 @@
 				398B88D81A237BB400E62796 /* Sources */,
 				398B88D91A237BB400E62796 /* Frameworks */,
 				398B88DA1A237BB400E62796 /* Resources */,
+				398B892B1A238CE700E62796 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				398B89231A238CE700E62796 /* PBXTargetDependency */,
 			);
 			name = "WatchKit-Fun";
 			productName = "WatchKit-Fun";
@@ -157,6 +286,39 @@
 			productReference = 398B88F51A237BB500E62796 /* WatchKit-FunTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		398B89081A238CE700E62796 /* WatchKit-Fun WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398B892A1A238CE700E62796 /* Build configuration list for PBXNativeTarget "WatchKit-Fun WatchKit Extension" */;
+			buildPhases = (
+				398B89051A238CE700E62796 /* Sources */,
+				398B89061A238CE700E62796 /* Frameworks */,
+				398B89071A238CE700E62796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398B891A1A238CE700E62796 /* PBXTargetDependency */,
+			);
+			name = "WatchKit-Fun WatchKit Extension";
+			productName = "WatchKit-Fun WatchKit Extension";
+			productReference = 398B89091A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		398B89161A238CE700E62796 /* WatchKit-Fun Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398B89291A238CE700E62796 /* Build configuration list for PBXNativeTarget "WatchKit-Fun Watch App" */;
+			buildPhases = (
+				398B89151A238CE700E62796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchKit-Fun Watch App";
+			productName = "WatchKit-Fun Watch App";
+			productReference = 398B89171A238CE700E62796 /* WatchKit-Fun Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +334,12 @@
 					398B88F41A237BB500E62796 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 398B88DB1A237BB400E62796;
+					};
+					398B89081A238CE700E62796 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					398B89161A238CE700E62796 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +358,8 @@
 			targets = (
 				398B88DB1A237BB400E62796 /* WatchKit-Fun */,
 				398B88F41A237BB500E62796 /* WatchKit-FunTests */,
+				398B89081A238CE700E62796 /* WatchKit-Fun WatchKit Extension */,
+				398B89161A238CE700E62796 /* WatchKit-Fun Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +372,7 @@
 				398B88EB1A237BB400E62796 /* Main.storyboard in Resources */,
 				398B88F01A237BB400E62796 /* LaunchScreen.xib in Resources */,
 				398B88ED1A237BB400E62796 /* Images.xcassets in Resources */,
+				398B892D1A238D4100E62796 /* animal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +380,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398B89071A238CE700E62796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B89181A238CE700E62796 /* WatchKit-Fun Watch App.app in Resources */,
+				398B89141A238CE700E62796 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398B89151A238CE700E62796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B891F1A238CE700E62796 /* Interface.storyboard in Resources */,
+				398B892E1A238D4100E62796 /* animal.jpg in Resources */,
+				398B89211A238CE700E62796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +411,9 @@
 			files = (
 				398B88E81A237BB400E62796 /* ViewController.m in Sources */,
 				398B88E51A237BB400E62796 /* AppDelegate.m in Sources */,
+				398B89341A23940F00E62796 /* TableInterfaceController.m in Sources */,
 				398B88E21A237BB400E62796 /* main.m in Sources */,
+				398B89311A238EAA00E62796 /* FoodTableRowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +425,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		398B89051A238CE700E62796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B893A1A23999800E62796 /* Table.m in Sources */,
+				398B893D1A239A1900E62796 /* TableDetail.m in Sources */,
+				398B89121A238CE700E62796 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +442,16 @@
 			isa = PBXTargetDependency;
 			target = 398B88DB1A237BB400E62796 /* WatchKit-Fun */;
 			targetProxy = 398B88F61A237BB500E62796 /* PBXContainerItemProxy */;
+		};
+		398B891A1A238CE700E62796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398B89161A238CE700E62796 /* WatchKit-Fun Watch App */;
+			targetProxy = 398B89191A238CE700E62796 /* PBXContainerItemProxy */;
+		};
+		398B89231A238CE700E62796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398B89081A238CE700E62796 /* WatchKit-Fun WatchKit Extension */;
+			targetProxy = 398B89221A238CE700E62796 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +605,62 @@
 			};
 			name = Release;
 		};
+		398B89251A238CE700E62796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchKit-Fun WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		398B89261A238CE700E62796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchKit-Fun WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		398B89271A238CE700E62796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchKit_Fun_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKit-Fun Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		398B89281A238CE700E62796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WatchKit_Fun_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchKit-Fun Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,12 +680,30 @@
 				398B89011A237BB500E62796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398B89021A237BB500E62796 /* Build configuration list for PBXNativeTarget "WatchKit-FunTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				398B89031A237BB500E62796 /* Debug */,
 				398B89041A237BB500E62796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398B89291A238CE700E62796 /* Build configuration list for PBXNativeTarget "WatchKit-Fun Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398B89271A238CE700E62796 /* Debug */,
+				398B89281A238CE700E62796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		398B892A1A238CE700E62796 /* Build configuration list for PBXNativeTarget "WatchKit-Fun WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398B89251A238CE700E62796 /* Debug */,
+				398B89261A238CE700E62796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

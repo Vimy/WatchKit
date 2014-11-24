@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>WatchKit-Fun Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WatchKit-Fun.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>398B88F41A237BB500E62796</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>398B89161A238CE700E62796</key>
 		<dict>
 			<key>primary</key>
 			<true/>

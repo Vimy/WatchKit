@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView width="135" height="118" alignment="left" image="animal.jpg" id="jKm-LI-uly"/>
+                        <button width="1" alignment="left" title="Feed" id="suc-bi-gMw">
+                            <connections>
+                                <segue destination="cyq-4E-pHu" kind="push" id="mxI-Z1-HXu"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--Table-->
+        <scene sceneID="0KR-tz-aRh">
+            <objects>
+                <controller id="cyq-4E-pHu" customClass="Table">
+                    <items>
+                        <table alignment="left" layout="vertical" id="E7W-ff-niC">
+                            <items>
+                                <tableRow identifier="tableRow" id="C6B-2k-Hjo" customClass="TableDetail">
+                                    <group key="rootItem" width="1" alignment="left" id="b12-kL-RaX">
+                                        <items>
+                                            <imageView width="38" alignment="left" id="DW6-h7-GVk"/>
+                                            <label width="86" height="37" alignment="left" text="Label" id="AQ3-xc-sS8"/>
+                                        </items>
+                                        <color key="backgroundColor" red="1" green="0.38098736611463124" blue="0.16765888271874041" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="foodImage" destination="DW6-h7-GVk" id="UeE-sd-QZd"/>
+                                        <outlet property="foodLabel" destination="AQ3-xc-sS8" id="dl7-ld-ijT"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="E7W-ff-niC" id="elD-s4-82c"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="486" y="332"/>
+        </scene>
+    </scenes>
+</document>

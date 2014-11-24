@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <imageView width="136" height="104" alignment="left" id="NUC-8E-hnQ"/>
+                        <imageView width="136" height="104" alignment="center" id="NUC-8E-hnQ"/>
                         <button width="1" alignment="left" title="1" id="CtG-k7-Fgj">
                             <connections>
                                 <action selector="button1" destination="AgC-eL-Hgc" id="fck-ZK-MLx"/>

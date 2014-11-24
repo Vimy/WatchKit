@@ -7,7 +7,7 @@
 //
 
 #import "Table.h"
-#import  "FoodTableRowController.h"
+#import  "TableDetail.h"
 
 @implementation Table
 {
@@ -17,7 +17,7 @@
     self = [super initWithContext:context];
     if (self)
     {
-        Food = @[@"Hamburger", @"Hotdog", @"Cyanide", @"Pasta"];
+        Food = @[@"Hamburger", @"Hotdog", @"Cyanide", @"Pasta", @"Frieten", @"Clerckies"];
         
         NSLog(@"%@ initWithContext", self);
         
@@ -32,8 +32,9 @@
     
     for (NSInteger i = 0; i < self.table.numberOfRows; i++)
     {
-        FoodTableRowController *theRow = [self.table rowControllerAtIndex:i];
+        TableDetail *theRow = [self.table rowControllerAtIndex:i];
         [theRow.foodLabel setText:[Food objectAtIndex:i]];
+        [theRow.foodImage setImage:[UIImage imageNamed:@"Hamburger.png"]];
         
     }
 }

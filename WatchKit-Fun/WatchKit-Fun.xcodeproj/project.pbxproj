@@ -23,10 +23,11 @@
 		398B89241A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 398B89091A238CE700E62796 /* WatchKit-Fun WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		398B892D1A238D4100E62796 /* animal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398B892C1A238D4100E62796 /* animal.jpg */; };
 		398B892E1A238D4100E62796 /* animal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398B892C1A238D4100E62796 /* animal.jpg */; };
-		398B89311A238EAA00E62796 /* FoodTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89301A238EAA00E62796 /* FoodTableRowController.m */; };
-		398B89341A23940F00E62796 /* TableInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89331A23940F00E62796 /* TableInterfaceController.m */; };
 		398B893A1A23999800E62796 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B89391A23999800E62796 /* Table.m */; };
 		398B893D1A239A1900E62796 /* TableDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 398B893C1A239A1900E62796 /* TableDetail.m */; };
+		398B893F1A23A1AF00E62796 /* Hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B893E1A23A1AF00E62796 /* Hamburger.png */; };
+		398B89411A23A1CB00E62796 /* hotdog-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 398B89401A23A1CB00E62796 /* hotdog-icon.png */; };
+		39D449F91A23B76E00116674 /* hamburger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D449F81A23B76E00116674 /* hamburger-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,14 +93,13 @@
 		398B891E1A238CE700E62796 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		398B89201A238CE700E62796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		398B892C1A238D4100E62796 /* animal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal.jpg; sourceTree = "<group>"; };
-		398B892F1A238EAA00E62796 /* FoodTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodTableRowController.h; path = "../WatchKit-Fun Watch App/FoodTableRowController.h"; sourceTree = "<group>"; };
-		398B89301A238EAA00E62796 /* FoodTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodTableRowController.m; path = "../WatchKit-Fun Watch App/FoodTableRowController.m"; sourceTree = "<group>"; };
-		398B89321A23940F00E62796 /* TableInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableInterfaceController.h; path = "../WatchKit-Fun Watch App/TableInterfaceController.h"; sourceTree = "<group>"; };
-		398B89331A23940F00E62796 /* TableInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableInterfaceController.m; path = "../WatchKit-Fun Watch App/TableInterfaceController.m"; sourceTree = "<group>"; };
 		398B89381A23999800E62796 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
 		398B89391A23999800E62796 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
 		398B893B1A239A1900E62796 /* TableDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDetail.h; sourceTree = "<group>"; };
 		398B893C1A239A1900E62796 /* TableDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDetail.m; sourceTree = "<group>"; };
+		398B893E1A23A1AF00E62796 /* Hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburger.png; sourceTree = "<group>"; };
+		398B89401A23A1CB00E62796 /* hotdog-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotdog-icon.png"; sourceTree = "<group>"; };
+		39D449F81A23B76E00116674 /* hamburger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +138,9 @@
 				398B890A1A238CE700E62796 /* Frameworks */,
 				398B88DD1A237BB400E62796 /* Products */,
 				398B892C1A238D4100E62796 /* animal.jpg */,
+				398B893E1A23A1AF00E62796 /* Hamburger.png */,
+				398B89401A23A1CB00E62796 /* hotdog-icon.png */,
+				39D449F81A23B76E00116674 /* hamburger-icon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,10 +209,6 @@
 			children = (
 				398B89101A238CE700E62796 /* InterfaceController.h */,
 				398B89111A238CE700E62796 /* InterfaceController.m */,
-				398B89321A23940F00E62796 /* TableInterfaceController.h */,
-				398B89331A23940F00E62796 /* TableInterfaceController.m */,
-				398B892F1A238EAA00E62796 /* FoodTableRowController.h */,
-				398B89301A238EAA00E62796 /* FoodTableRowController.m */,
 				398B89131A238CE700E62796 /* Images.xcassets */,
 				398B890E1A238CE700E62796 /* Supporting Files */,
 				398B89381A23999800E62796 /* Table.h */,
@@ -369,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D449F91A23B76E00116674 /* hamburger-icon.png in Resources */,
 				398B88EB1A237BB400E62796 /* Main.storyboard in Resources */,
 				398B88F01A237BB400E62796 /* LaunchScreen.xib in Resources */,
 				398B88ED1A237BB400E62796 /* Images.xcassets in Resources */,
@@ -388,6 +388,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				398B89181A238CE700E62796 /* WatchKit-Fun Watch App.app in Resources */,
+				398B89411A23A1CB00E62796 /* hotdog-icon.png in Resources */,
+				398B893F1A23A1AF00E62796 /* Hamburger.png in Resources */,
 				398B89141A238CE700E62796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,9 +413,7 @@
 			files = (
 				398B88E81A237BB400E62796 /* ViewController.m in Sources */,
 				398B88E51A237BB400E62796 /* AppDelegate.m in Sources */,
-				398B89341A23940F00E62796 /* TableInterfaceController.m in Sources */,
 				398B88E21A237BB400E62796 /* main.m in Sources */,
-				398B89311A238EAA00E62796 /* FoodTableRowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +698,7 @@
 				398B89281A238CE700E62796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398B892A1A238CE700E62796 /* Build configuration list for PBXNativeTarget "WatchKit-Fun WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +707,7 @@
 				398B89261A238CE700E62796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

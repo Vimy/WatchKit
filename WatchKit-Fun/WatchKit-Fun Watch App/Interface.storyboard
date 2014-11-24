@@ -10,20 +10,33 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
+                        <label alignment="left" text="Walvis nom nom" id="YSY-ZA-5EY"/>
                         <imageView width="135" height="118" alignment="left" image="animal.jpg" id="jKm-LI-uly"/>
                         <button width="1" alignment="left" title="Feed" id="suc-bi-gMw">
                             <connections>
-                                <segue destination="cyq-4E-pHu" kind="push" id="mxI-Z1-HXu"/>
+                                <action selector="FeedButton" destination="AgC-eL-Hgc" id="gVL-vB-wM6"/>
                             </connections>
                         </button>
                     </items>
+                    <menu key="menu" id="mPH-cC-LRs">
+                        <items>
+                            <menuItem title="Walvis Eten" image="Whale" id="UWB-1A-nRZ">
+                                <connections>
+                                    <action selector="walvisTapped" destination="AgC-eL-Hgc" id="mgz-M8-TZf"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="walvisLabel" destination="YSY-ZA-5EY" id="dvQ-Bo-gdX"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
-        <!--Table-->
+        <!--TableView-->
         <scene sceneID="0KR-tz-aRh">
             <objects>
-                <controller id="cyq-4E-pHu" customClass="Table">
+                <controller identifier="TableView" id="cyq-4E-pHu" customClass="Table">
                     <items>
                         <table alignment="left" layout="vertical" id="E7W-ff-niC">
                             <items>

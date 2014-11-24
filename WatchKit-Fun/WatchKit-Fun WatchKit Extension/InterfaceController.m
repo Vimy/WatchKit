@@ -10,6 +10,7 @@
 
 
 @interface InterfaceController()
+@property (strong, nonatomic) IBOutlet WKInterfaceLabel *walvisLabel;
 
 @end
 
@@ -20,13 +21,17 @@
     self = [super initWithContext:context];
     if (self)
     {
-        
+        [self.walvisLabel setHidden:YES];
                // Initialize variables here.
         // Configure interface objects here.
         NSLog(@"%@ initWithContext", self);
         
     }
     return self;
+}
+- (IBAction)FeedButton
+{
+    [self presentControllerWithName:@"TableView" context:nil];
 }
 
 - (void)willActivate {
@@ -38,6 +43,11 @@
     // This method is called when watch view controller is no longer visible
     NSLog(@"%@ did deactivate", self);
 }
+- (IBAction)walvisTapped
+{
+    [self.walvisLabel setHidden:NO];
+}
+
 
 @end
 
